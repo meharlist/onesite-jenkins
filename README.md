@@ -155,18 +155,11 @@ Cucumber feature file:
 ![alt text](src/test/resources/com/onesite/images/cucumber_feature.JPG "scenario tags")
 
 
-Sample test result report:
-------------------------
-
-&nbsp;&nbsp;
-![alt text](src/test/resources/com/onesite/images/test_report.JPG "test report")
-
-
 Test Runner class:
 ------------------
 
 &nbsp;&nbsp;
-![alt text](src/test/resources/com/onesite/images/test_runner_class.JPG "test runner")
+![alt text](src/test/resources/com/onesite/images/runner_commented.JPG "test runner")
 
 
 Project Structure:
