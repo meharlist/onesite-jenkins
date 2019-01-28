@@ -100,7 +100,28 @@ Running test from Jenkins:
 &nbsp;&nbsp;
 ![alt text](src/test/resources/com/onesite/images/cucumber_plugin.JPG "cucumber")
 
-11. Next, go to main page, click create new jenkins job.
+11. Next, click `Jenkins` and go to `Global Tool Configuration` . see below image
+
+
+&nbsp;&nbsp;
+![alt text](src/test/resources/com/onesite/images/maven_tool_config_01.JPG "cucumber")
+
+
+12. Go to `Maven` section and add the path of maven, please make sure to name it `M3` . see below image
+
+
+&nbsp;&nbsp;
+![alt text](src/test/resources/com/onesite/images/maven_tool_config_02.JPG "cucumber")
+
+
+13. click save.
+
+11. Next, go to main page, click `New Item` this is to create new jenkins job for our project. see below image
+
+
+&nbsp;&nbsp;
+![alt text](src/test/resources/com/onesite/images/new_item.JPG "cucumber")
+
 
 12. click `Build Triggers`
   
@@ -115,9 +136,10 @@ Running test from Jenkins:
 
 15. finally save the job.
 
-16. to run the job, you have to click `build now`
+16. to run the job, you have to click `Build Now`
 
 17. you should see something like this.
+
 
 &nbsp;&nbsp;
 ![alt text](src/test/resources/com/onesite/images/pipeline_build_execution.JPG "cucumber")
