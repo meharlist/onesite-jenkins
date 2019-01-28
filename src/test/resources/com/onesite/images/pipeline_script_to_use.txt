@@ -7,7 +7,7 @@ pipeline {
                     steps {
                           
                              echo 'SCM checkout, here code is pulled from source code management, in our case it is our git repo'
-                             git branch: 'master', credentialsId: '0f28b7ed-7c84-4f02-87e0-5541c076ad59', url: 'https://github.com/meharlist/onesite.git'
+                             git branch: 'master', credentialsId: '0f28b7ed-7c84-4f02-87e0-5541c076ad59', url: 'https://github.com/meharlist/onesite-jenkins.git'
 							
                     }
         }
