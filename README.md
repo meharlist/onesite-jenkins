@@ -65,85 +65,48 @@ $ git clone https://github.com/meharlist/onesite.git
 ```
 
 
-Running test from command line:
-------------------------------
-
-1. You can use git bash or any choice of shell.
-
-2. Go to your project directory from terminal and hit below command:
-
-```sh
-$ mvn clean package compiler:testCompile surefire:test
-```
-
-3. Test results or reports can be found in `cucumber-reports` folder which is under `target` directory.
-
-4. `logfile` under project root, which you can open to see what steps were executed. It is simple logger info.
-
-
-Running test from IDE (Eclipse):
--------------------------------
-
-1. Import project to IDE
-
-2. open TestRunner class from `src/test/java/com/onesite`
-
-3. click on project root, and navigate to `src\test\java\com\onesite` and open `TestRunner` class and run as junit test
-
-4. JUnit test results can be found in `target` folder.
-
-
-
 Running test from Jenkins:
 -------------------------------
 
-1. First change the code in `TestRunner.java` class. please see below. 
+1. This was tested in my local jenkins instance using pipeline script.
 
-2.   The code should look exactly as shown in below image , and this is to run in jenkins. Note, if you are running in local, please leave the code as it is.
-   
-&nbsp;&nbsp;
-![alt text](src/test/resources/com/onesite/images/test_runner_class_02.JPG "manage plugin01")
-   
-   
-3. This was tested in my local jenkins instance using pipeline script.
+2. With few tweaks you can run this project in jenkins too.
 
-4. With few tweaks you can run this project in jenkins too.
+3. Please see below images and instructions to run them in jenkins.
 
-5. Please see below images and instructions to run them in jenkins.
+4. install jenkins in your windows machine (this is working in windows).
 
-6. install jenkins in your windows machine (this is working in windows).
+5. open the instance webpage using url (`localhost:8080`)
 
-7. open the instance webpage using url (`localhost:8080`)
+6. create user if it is first time.
 
-8. create user if it is first time.
+7. then you be should landed in main page of jenkins.
 
-9. then you be should landed in main page of jenkins.
-
-10. install below plugins, to have this you need to navigate to manage plugins.
+8. install below plugins, to have this you need to navigate to manage plugins.
 
 
 &nbsp;&nbsp;
 ![alt text](src/test/resources/com/onesite/images/manage_jenkins_01.JPG "manage plugin01")
 
-11. naviagte to manage plugins
+9. naviagte to manage plugins
 
 
 &nbsp;&nbsp;
 ![alt text](src/test/resources/com/onesite/images/manage_jenkins_02.JPG "manage plugin02")
 
-12. install cucumber plugins.
+10. install cucumber plugins.
 
 
 &nbsp;&nbsp;
 ![alt text](src/test/resources/com/onesite/images/cucumber_plugin.JPG "cucumber")
 
-13. Next, go to main page, click create new jenkins job.
+11. Next, go to main page, click create new jenkins job.
 
-14. click `Build Triggers`
+12. click `Build Triggers`
   
-15. select `Pipeline script` and copy the pipeline script from `pipeline_script_to_use.txt`, this file is in `src\test\resources\com\onesite\images` .
+13. select `Pipeline script` and copy the pipeline script from `pipeline_script_to_use.txt`, this file is in `src\test\resources\com\onesite\images` .
 
-16. paste the script in `Pipeline script` section. make sure `use Groovy Sandbox` is checked, please see below image. 
+14. paste the script in `Pipeline script` section. make sure `use Groovy Sandbox` is checked, please see below image. 
 
 
 &nbsp;&nbsp;
@@ -167,7 +130,6 @@ Running test from Jenkins:
 
 &nbsp;&nbsp;
 ![alt text](src/test/resources/com/onesite/images/cucumber_report_jen.JPG "cucumber")
-
 
 
 
