@@ -104,14 +104,14 @@ Running test from Jenkins:
 
 
 &nbsp;&nbsp;
-![alt text](src/test/resources/com/onesite/images/maven_tool_config_01.JPG "cucumber")
+![alt text](src/test/resources/com/onesite/images/maven_tool_config_02.JPG "cucumber")
 
 
 12. Go to `Maven` section and add the path of maven, please make sure to name it `M3` . see below image
 
 
 &nbsp;&nbsp;
-![alt text](src/test/resources/com/onesite/images/maven_tool_config_02.JPG "cucumber")
+![alt text](src/test/resources/com/onesite/images/maven_tool_config_01.JPG "cucumber")
 
 
 13. click save.
