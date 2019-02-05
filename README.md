@@ -191,9 +191,4 @@ Project Structure:
 ![alt text](src/test/resources/com/onesite/images/project_structure.JPG "project structure")
 
 
-Conclusion:
------------
-
-1. Due to time constraint few things were (as stated above) not included or tested.
-2. Given few more days I would have completed things which I haven't tested.
 
