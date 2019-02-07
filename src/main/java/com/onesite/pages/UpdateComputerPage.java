@@ -163,7 +163,7 @@ public class UpdateComputerPage {
 				 List<WebElement> listOrColumnsInTheRow = webElement.findElements(By.tagName("td"));				 
 				 for(WebElement webElementTd : listOrColumnsInTheRow){ 					
 					 if(!(webElementTd.getText().equalsIgnoreCase(dateToSearch))){						 
-						 flag = true;
+						 flag = false;
 					 }
 				 }				 
 			  }
