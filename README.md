@@ -116,39 +116,39 @@ Running test from Jenkins:
 
 13. click save.
 
-11. Next, go to main page, click `New Item` this is to create new jenkins job for our project. see below image
+14. Next, go to main page, click `New Item` this is to create new jenkins job for our project. see below image
 
 
 &nbsp;&nbsp;
 ![alt text](src/test/resources/com/onesite/images/new_item.JPG "cucumber")
 
 
-12. click `Build Triggers`
+15. click `Build Triggers`
   
-13. select `Pipeline script` and copy the pipeline script from `pipeline_script_to_use.txt`, this file is in `src\test\resources\com\onesite\images` .
+16. select `Pipeline script` and copy the pipeline script from `pipeline_script_to_use.txt`, this file is in `src\test\resources\com\onesite\images` .
 
-14. paste the script in `Pipeline script` section. make sure `use Groovy Sandbox` is checked, please see below image. 
+17. paste the script in `Pipeline script` section. make sure `use Groovy Sandbox` is checked, please see below image. 
 
 
 &nbsp;&nbsp;
 ![alt text](src/test/resources/com/onesite/images/pipeline_Script_01.JPG "cucumber")
 
 
-15. finally save the job.
+18. finally save the job.
 
-16. to run the job, you have to click `Build Now`
+20. to run the job, you have to click `Build Now`
 
-17. you should see something like this.
+21. you should see something like this.
 
 
 &nbsp;&nbsp;
 ![alt text](src/test/resources/com/onesite/images/pipeline_build_execution.JPG "cucumber")
 
 
-18. to see cucumber reports, click `cucumber reports` link as shown in above image.
+22. to see cucumber reports, click `cucumber reports` link as shown in above image.
 
 
-19. this is how report looks like.
+23. this is how report looks like.
 
 &nbsp;&nbsp;
 ![alt text](src/test/resources/com/onesite/images/cucumber_report_jen.JPG "cucumber")
